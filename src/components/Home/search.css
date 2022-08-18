@@ -1,0 +1,87 @@
+/*searchcss*/
+
+#search {
+    height: 450px;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 450px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(243 235 235 /60%);
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 2%;
+    position: absolute;
+    animation: revolve 10s infinite;
+    font-size: 2rem;
+}
+
+@keyframes revolve {
+    0% {
+        transform: rotate(10deg);
+        margin-left: 45%;
+    }
+    20% {
+        transform: rotate(90deg);
+        margin-left: 0%;
+    }
+    40% {
+        transform: rotate(180deg);
+        margin-left: 45%;
+    }
+    60% {
+        transform: rotate(270eg);
+        margin-left: 90%;
+    }
+    80% {
+        transform: rotate(360deg);
+        margin-left: 49%;
+    }
+    100% {
+        transform: rotate(0deg);
+        margin-left: 0%;
+    }
+}
+
+#logo>span {
+    margin-left: 30%;
+    margin-top: 8%;
+    position: absolute;
+    font-size: 3em;
+}
+
+#heading {
+    width: 100%;
+    margin-left: 25%;
+    margin-top: 14%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.dropdown {
+    height: 60px;
+    width: 60%;
+    margin-left: 23%;
+    margin-top: 20%;
+    position: absolute;
+    border: 2px solid none;
+    font-size: medium;
+}
+
+select {
+    height: 60px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.restSelect {
+    width: 55%;
+}

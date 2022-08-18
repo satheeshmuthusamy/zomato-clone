@@ -1,0 +1,144 @@
+/*quicksearchcss*/
+
+#quicksearch {
+    /* height: 940px; */
+    width: 100%;
+    border: 4px dotted none;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#quickHeading {
+    font-size: 30px;
+    color: #c79305;
+    display: block;
+    margin-left: 2%;
+    margin-top: 2%;
+    /* visibility:visible; */
+}
+
+#quickHeading:hover {
+    font-size: 40px;
+}
+
+#quickSubHeading {
+    font-size: 20px;
+    color: #2e8b63;
+    display: block;
+    line-height: 3;
+    margin-left: 2%;
+}
+
+.tileContainer {
+    height: 180px;
+    width: 25%;
+    box-shadow: 0px 5px 27px rgb(239, 230, 230);
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 2%;
+    background-color: #FFFFFF;
+    /* animation:dance 10s infinite;(for continuous dancing ) */
+}
+
+@keyframes dance {
+    0% {
+        transform: rotate(10deg)
+    }
+    25% {
+        transform: rotate(90deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    75% {
+        transform: rotate(270eg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.tileContainer:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 27px black;
+
+    /* transform:skewx(20deg); */
+    /* transform:rotate(20deg); */
+    /* transform:translate(40px); */
+}
+
+.tileComponent1>img {
+    width: 100%;
+    height: 180px;
+}
+
+.tileComponent1 {
+    width: 50%;
+    height: 180px;
+    background-color: olive;
+    float: left;
+}
+
+.tileComponent2 {
+    width: 45%;
+    margin-Left: 5%;
+    margin-top: 10%;
+    float: left;
+    background-color: whitesmoke;
+}
+
+.componentHeading {
+    color: rgb(236, 183, 84);
+    font-size: 2rem;
+    margin-top: -3%;
+    margin-left: 0%;
+}
+
+.componentsubHeading {
+    color: rgb(2, 12, 12);
+    font-size: 1rem;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#dishes {
+    height: 400px;
+    width: 100%;
+    border: 2px solid none;
+}
+
+#t {
+    height: 170px;
+    width: 30%;
+    border: 2px solid none;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 0px 5px 27px #d35b5a;
+    /* transform:scale(1.2); */
+}
+
+#t:hover {
+    transform: scale(1.1);
+}
+
+title:hover {
+    transform: scale(1.1);
+}
+
+#t>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .tileContainer{
+    height: 180px;
+    width: 30%;
+    box-shadow: 0px 5px 27px black;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+} */
